@@ -1,6 +1,7 @@
 
-# [汪毅盛 Eson Wong](https://itiwll.github.io/resume/)
-自由职业前端开发者
+# [汪毅盛 Eson Wong](https://esonwong.com)
+自由职业，前端开发者
+
 ## 个人信息
 - 汪毅盛 / 男 / 1990 
 - 手机 / 微信号：13265678623
