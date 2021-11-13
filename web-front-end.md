@@ -7,8 +7,10 @@
 - 手机 / 微信号：13265678623
 - Email：itiwll@gmail.com
 - 期望工作：Web 前端开发工程师 / __远程__
-- 工作年限：7年
+- 工作年限：8年
 - 学历：大专 / 湖北职业学院 / 计算机软件专业
+- [@eson000](https://twitter.com/eson000)
+- [github](https://github.com/itiwll)
 
 ## 项目经历
 ### Network-RC
