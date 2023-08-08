@@ -1,6 +1,6 @@
 # Eson Wong 汪毅盛
 
-Currently working as the head of the front-end functional team (20 people) at Guangzhou Danxiao Information Technology Co., Ltd. Responsible for the front-end architecture of company projects, front-end team building, and front-end development. At the same time, promoting the application of AI technology in various functional work of the company (including generating SEO external chain articles, GPT after-sales customer service, etc.), AI application and landing in the project.
+Currently working as the head of the front-end functional team (20 people) at Guangzhou Danxiao Information Technology Co., Ltd. Responsible for the front-end architecture of company projects, DevOps, front-end team building, and front-end development. At the same time, promoting the application of AI technology in various functional work of the company (including generating SEO external chain articles, GPT after-sales customer service, etc.), AI application and landing in the project.
 
 [中文版](./README.md)
 
