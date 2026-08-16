@@ -94,6 +94,38 @@ Chrome、FirFox 浏览器的插件产品，服务于在浏览器进行直播用�
 
 在本项目中我实现了市面上网络遥控车**最低的的视频延迟**。
 
+## 个人项目
+
+### E-ink Todo List
+
+🗓️ 2024/02 至今
+
+🔗 <https://einktodo.com> · [GitHub ★42](https://github.com/esonwong/e-ink-todo-list)
+
+墨水屏待办清单，从硬件到云端全栈自研：ESP32 固件与自绘 PCB、Next.js Web 端、iOS App（Sign in with Apple / GitHub 登录）、CI/CD 与 E2E 测试。为设备提供 **MCP Server 与 Claude Skill**，让 AI Agent 可以直接把日程、摘要、图片推到实体屏幕上——把物理设备变成 Agent 可调用的工具。
+
+### 个人 AI Agent 遥控与审批系统
+
+🗓️ 2026/07 至今
+
+把多台机器上的 Claude Code 会话作为 AI 引擎，从 iPhone / Apple Watch / Widget / Siri / 灵动岛与飞书随时下发任务、查看进度、**远程审批工具权限**、切换模型与重启会话。Cloudflare Worker + Durable Object 后端、APNs 推送、WebSocket 唤醒各机器桥接进程；TDD 开发。是公司内 AI 同事 / 权限治理思路在个人场景的验证场。
+
+### Somatic Corridor
+
+🗓️ 2026/06
+
+🔗 <https://running.esonwong.com>
+
+浏览器摄像头实时识别跳跃 / 下蹲 / 侧移 / 出拳，驱动第一人称无限走廊游戏。纯前端姿态识别 + WebGL，AI 辅助两周内从想法到上线。
+
+### 其他
+
+- **esp-matter-window**：Matter over Thread 电池开窗器（XIAO ESP32-C6 / ESP-IDF），接入 Apple Home
+- **xiao-ai-mini**：小智 AI 语音助手 Android 客户端（Kotlin / C++，实验中）
+- **I'm Listening**：LLM + TTS 生成个性化听力材料的 Web 应用
+
+## 早期项目
+
 ### 园林帮
 
 🗓️ 2019/2 - 2020/3

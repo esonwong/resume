@@ -94,6 +94,38 @@ I am responsible for project architecture development, business function develop
 
 In this project, I achieved the **lowest video latency** of network remote control cars on the market.
 
+## Side Projects
+
+### E-ink Todo List
+
+🗓️ 2024/02 - Present
+
+🔗 <https://einktodo.com> · [GitHub ★42](https://github.com/esonwong/e-ink-todo-list)
+
+An e-ink to-do list built end to end: ESP32 firmware and custom PCB, Next.js web app, iOS app (Sign in with Apple / GitHub), CI/CD and E2E tests. Ships an **MCP server and a Claude Skill** so AI agents can push schedules, summaries and images straight to the physical screen — turning a device into a tool agents can call.
+
+### Personal AI Agent Remote Control & Approval System
+
+🗓️ 2026/07 - Present
+
+Uses Claude Code sessions on multiple machines as the AI engine; dispatch tasks, follow progress, **approve tool permissions remotely**, switch models and restart sessions from iPhone / Apple Watch / Widget / Siri / Live Activity and Feishu. Cloudflare Worker + Durable Object backend, APNs push, WebSocket wake-up of per-machine bridges; built TDD. A personal proving ground for the AI-colleague and permission-governance ideas used at work.
+
+### Somatic Corridor
+
+🗓️ 2026/06
+
+🔗 <https://running.esonwong.com>
+
+A first-person endless corridor game driven by the webcam: jump / crouch / sidestep / punch recognized in real time. Pure front-end pose estimation + WebGL; taken from idea to launch in two weeks with AI assistance.
+
+### Also
+
+- **esp-matter-window**: battery-powered Matter-over-Thread window opener (XIAO ESP32-C6 / ESP-IDF) working with Apple Home
+- **xiao-ai-mini**: Android client for the XiaoZhi AI voice assistant (Kotlin / C++, experimental)
+- **I'm Listening**: web app generating personalized listening material with LLM + TTS
+
+## Earlier Projects
+
 ### Garden Help
 
 🗓️ 2019/2 - 2020/3
