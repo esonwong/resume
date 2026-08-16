@@ -201,27 +201,21 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);font-si
     <p>Chrome / Firefox 浏览器插件，结合公司硬件产品实现观众与主播的互动，并为直播平台与第三方开发者提供安全易用的 API 与 Developer 文档。负责架构与业务开发、项目进度管理、第三方开发者集成支持。</p>
     <div class="chips"><span class="chip">Browser Extension API</span><span class="chip">Vue</span><span class="chip">开放 API</span></div>
   </li>
-  <li>
-    <h3>Network-RC <span class="muted small">个人试验性创业项目</span></h3>
-    <div class="meta"><b>2020/04 – 2023/08</b><a href="https://github.com/esonwong/network-rc" target="_blank" rel="noopener">GitHub ★274</a></div>
-    <p>4G/5G 远程网络遥控车 / 机器人系统。树莓派 + RC 遥控车硬件，浏览器交互控制，多摄像头低延迟图传与语音对讲。被控端 <strong>NodeJS</strong> 控制硬件，<strong>WebRTC</strong> 点对点 + 自实现逐帧编码视频流；控制端 <strong>React</strong>。实验了 TTS、重力感应、GamePad、内网穿透、云台控制、<strong>AI 驾驶</strong>等特性，实现了市面上网络遥控车<strong>最低的视频延迟</strong>。</p>
-    <div class="chips"><span class="chip">WebRTC</span><span class="chip">NodeJS</span><span class="chip">React</span><span class="chip">树莓派</span></div>
-  </li>
 </ol>
 
 <h2>业余项目</h2>
 <ol class="tl">
   <li>
-    <h3>E-ink Todo List <span class="muted small">开源 · 软硬一体</span></h3>
-    <div class="meta"><b>2024/02 – 至今</b><a href="https://einktodo.com" target="_blank" rel="noopener">einktodo.com</a><a href="https://github.com/esonwong/e-ink-todo-list" target="_blank" rel="noopener">GitHub ★42</a></div>
-    <p>墨水屏待办清单，从硬件到云端全栈自研：ESP32 固件与自绘 PCB、Next.js Web 端、iOS App（Sign in with Apple / GitHub 登录）、CI/CD 与 E2E 测试。为设备提供 <strong>MCP Server 与 Claude Skill</strong>，让 AI Agent 可以直接把日程、摘要、图片推到实体屏幕上——把物理设备变成 Agent 可调用的工具。</p>
-    <div class="chips"><span class="chip">MCP Server</span><span class="chip">Claude Skill</span><span class="chip">Next.js</span><span class="chip">iOS</span><span class="chip">ESP32 / PCB</span></div>
-  </li>
-  <li>
     <h3>个人 AI Agent 遥控与审批系统</h3>
     <div class="meta"><b>2026/07 – 至今</b><span>iOS 全端 + 飞书</span></div>
     <p>把多台机器上的 Claude Code 会话作为 AI 引擎，从 iPhone / Apple Watch / Widget / Siri / 灵动岛 与飞书随时下发任务、查看进度、<strong>远程审批工具权限</strong>、切换模型与重启会话。Cloudflare Worker + Durable Object 后端、APNs 推送、WebSocket 门铃唤醒各机器桥接进程；TDD 开发。是公司内 AI 同事 / 权限治理思路在个人场景的验证场。</p>
     <div class="chips"><span class="chip">Claude Code</span><span class="chip">Cloudflare Workers / DO</span><span class="chip">SwiftUI</span><span class="chip">Siri / Live Activity</span><span class="chip">飞书开放平台</span></div>
+  </li>
+  <li>
+    <h3>伊娃 <span class="muted small">自建家庭语音 AI 助手 · 软硬一体</span></h3>
+    <div class="meta"><b>2026/07 – 至今</b><span>树莓派 + Mac mini + 触屏音箱 + Matter</span></div>
+    <p>从唤醒到家电控制全链路自研的语音 Agent。树莓派做语音终端：本地唤醒词 KWS 常驻、PortAudio 全双工 + AEC 实现播放中语音打断；Mac mini 做大脑：Python asyncio 会话状态机，能量 VAD 断句 → 离线 ASR（audio.cpp / Qwen3-ASR）→ 流式 LLM → 按句流式 TTS，端到端首包约 2 秒；小爱触屏音箱刷成显示终端（Compose App，眼睛表情 / 时钟 / 通知一瞥）；自建 Matter fabric 控窗帘、灯带、温湿度。上层把 <strong>Pi Agent</strong> 关进 Docker 沙箱做家庭事务 Agent：对话中识别任务即委派，管理清单 / 待办 / 日程与家电状态，/workspace 作为它的长期记忆；配合定时任务、每日记忆巩固（"做梦"，可画到墨水屏）、每轮对话 JSONL 账本与唤醒存证做可观测与样本采集。</p>
+    <div class="chips"><span class="chip">语音 Agent</span><span class="chip">Pi Agent</span><span class="chip">KWS / AEC</span><span class="chip">ASR / LLM / TTS 流水线</span><span class="chip">Matter</span><span class="chip">Raspberry Pi</span><span class="chip">Android Compose</span></div>
   </li>
   <li>
     <h3>Somatic Corridor <span class="muted small">体感梦核跑酷</span></h3>
@@ -230,10 +224,16 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);font-si
     <div class="chips"><span class="chip">姿态识别</span><span class="chip">WebGL</span><span class="chip">纯前端</span></div>
   </li>
   <li>
-    <h3>伊娃 <span class="muted small">自建家庭语音 AI 助手 · 软硬一体</span></h3>
-    <div class="meta"><b>2026/07 – 至今</b><span>树莓派 + Mac mini + 触屏音箱 + Matter</span></div>
-    <p>从唤醒到家电控制全链路自研的语音 Agent。树莓派做语音终端：本地唤醒词 KWS 常驻、PortAudio 全双工 + AEC 实现播放中语音打断；Mac mini 做大脑：Python asyncio 会话状态机，能量 VAD 断句 → 离线 ASR（audio.cpp / Qwen3-ASR）→ 流式 LLM → 按句流式 TTS，端到端首包约 2 秒；小爱触屏音箱刷成显示终端（Compose App，眼睛表情 / 时钟 / 通知一瞥）；自建 Matter fabric 控窗帘、灯带、温湿度。上层把 <strong>Pi Agent</strong> 关进 Docker 沙箱做家庭事务 Agent：对话中识别任务即委派，管理清单 / 待办 / 日程与家电状态，/workspace 作为它的长期记忆；配合定时任务、每日记忆巩固（"做梦"，可画到墨水屏）、每轮对话 JSONL 账本与唤醒存证做可观测与样本采集。</p>
-    <div class="chips"><span class="chip">语音 Agent</span><span class="chip">Pi Agent</span><span class="chip">KWS / AEC</span><span class="chip">ASR / LLM / TTS 流水线</span><span class="chip">Matter</span><span class="chip">Raspberry Pi</span><span class="chip">Android Compose</span></div>
+    <h3>E-ink Todo List <span class="muted small">开源 · 软硬一体</span></h3>
+    <div class="meta"><b>2024/02 – 至今</b><a href="https://einktodo.com" target="_blank" rel="noopener">einktodo.com</a><a href="https://github.com/esonwong/e-ink-todo-list" target="_blank" rel="noopener">GitHub ★42</a></div>
+    <p>墨水屏待办清单，从硬件到云端全栈自研：ESP32 固件与自绘 PCB、Next.js Web 端、iOS App（Sign in with Apple / GitHub 登录）、CI/CD 与 E2E 测试。为设备提供 <strong>MCP Server 与 Claude Skill</strong>，让 AI Agent 可以直接把日程、摘要、图片推到实体屏幕上——把物理设备变成 Agent 可调用的工具。</p>
+    <div class="chips"><span class="chip">MCP Server</span><span class="chip">Claude Skill</span><span class="chip">Next.js</span><span class="chip">iOS</span><span class="chip">ESP32 / PCB</span></div>
+  </li>
+  <li>
+    <h3>Network-RC <span class="muted small">个人试验性创业项目</span></h3>
+    <div class="meta"><b>2020/04 – 2023/08</b><a href="https://github.com/esonwong/network-rc" target="_blank" rel="noopener">GitHub ★274</a></div>
+    <p>4G/5G 远程网络遥控车 / 机器人系统。树莓派 + RC 遥控车硬件，浏览器交互控制，多摄像头低延迟图传与语音对讲。被控端 <strong>NodeJS</strong> 控制硬件，<strong>WebRTC</strong> 点对点 + 自实现逐帧编码视频流；控制端 <strong>React</strong>。实验了 TTS、重力感应、GamePad、内网穿透、云台控制、<strong>AI 驾驶</strong>等特性，实现了市面上网络遥控车<strong>最低的视频延迟</strong>。</p>
+    <div class="chips"><span class="chip">WebRTC</span><span class="chip">NodeJS</span><span class="chip">React</span><span class="chip">树莓派</span></div>
   </li>
   <li>
     <h3 class="muted" style="font-weight:600;font-size:14px;color:var(--ink-3)">其他</h3>

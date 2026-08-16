@@ -13,7 +13,6 @@
 - 工作年限：13 年
 - 学历：大专 / 湖北职业学院 / 计算机软件专业
 
-
 ## Links
 
 - Blog: <https://blog.esonwong.com>
@@ -86,6 +85,36 @@ Chrome、FirFox 浏览器的插件产品，服务于在浏览器进行直播用�
 
 我在项目中负责项目架构开发，业务功能开发，管理项目进度，为第三方开发者集成提供支持。
 
+## 业余项目
+
+### 个人 AI Agent 遥控与审批系统
+
+🗓️ 2026/07 至今
+
+把多台机器上的 Claude Code 会话作为 AI 引擎，从 iPhone / Apple Watch / Widget / Siri / 灵动岛与飞书随时下发任务、查看进度、**远程审批工具权限**、切换模型与重启会话。Cloudflare Worker + Durable Object 后端、APNs 推送、WebSocket 唤醒各机器桥接进程；TDD 开发。是公司内 AI 同事 / 权限治理思路在个人场景的验证场。
+
+### 伊娃 · 自建家庭语音 AI 助手
+
+🗓️ 2026/07 至今
+
+从唤醒到家电控制全链路自研的语音 Agent。树莓派做语音终端：本地唤醒词 KWS 常驻、PortAudio 全双工 + AEC 实现播放中语音打断；Mac mini 做大脑：Python asyncio 会话状态机，能量 VAD 断句 → 离线 ASR（audio.cpp / Qwen3-ASR）→ 流式 LLM → 按句流式 TTS，端到端首包约 2 秒；小爱触屏音箱刷成显示终端（Compose App，眼睛表情 / 时钟 / 通知一瞥）；自建 Matter fabric 控窗帘、灯带、温湿度。上层把 **Pi Agent** 关进 Docker 沙箱做家庭事务 Agent：对话中识别任务即委派，管理清单 / 待办 / 日程与家电状态，`/workspace` 作为它的长期记忆；配合定时任务、每日记忆巩固（"做梦"，可画到墨水屏）、每轮对话 JSONL 账本与唤醒存证做可观测与样本采集。
+
+### Somatic Corridor
+
+🗓️ 2026/06
+
+🔗 <https://running.esonwong.com>
+
+浏览器摄像头实时识别跳跃 / 下蹲 / 侧移 / 出拳，驱动第一人称无限走廊游戏。纯前端姿态识别 + WebGL，AI 辅助半天内从想法到上线。
+
+### E-ink Todo List
+
+🗓️ 2024/02 至今
+
+🔗 <https://einktodo.com> · [GitHub ★42](https://github.com/esonwong/e-ink-todo-list)
+
+墨水屏待办清单，从硬件到云端全栈自研：ESP32 固件与自绘 PCB、Next.js Web 端、iOS App（Sign in with Apple / GitHub 登录）、CI/CD 与 E2E 测试。为设备提供 **MCP Server 与 Claude Skill**，让 AI Agent 可以直接把日程、摘要、图片推到实体屏幕上——把物理设备变成 Agent 可调用的工具。
+
 ### Network-RC
 
 🗓️ 2020/4 - 2023/8
@@ -97,36 +126,6 @@ Chrome、FirFox 浏览器的插件产品，服务于在浏览器进行直播用�
 4G/5G 远程网络遥控车/机器人系统。基于树莓派和 RC 遥控车硬件，利用电脑或手机浏览器交互控制，实现了具有多摄像头低延迟网络图传和语音对讲。被控端使用 **NodeJS** 控制硬件，采用 **WebRTC** 的点对点通信技术和自已实现的逐帧编码视频流实现视频画面低延迟传输，和双向音频流。控制端使用 **React** 构建交互 UI。实验了 TTS、重力感应控制、GamePad 控制、内网穿透、云台控制、**AI 驾驶**等特性。个人试验性创业项目。
 
 在本项目中我实现了市面上网络遥控车**最低的的视频延迟**。
-
-## 业余项目
-
-### E-ink Todo List
-
-🗓️ 2024/02 至今
-
-🔗 <https://einktodo.com> · [GitHub ★42](https://github.com/esonwong/e-ink-todo-list)
-
-墨水屏待办清单，从硬件到云端全栈自研：ESP32 固件与自绘 PCB、Next.js Web 端、iOS App（Sign in with Apple / GitHub 登录）、CI/CD 与 E2E 测试。为设备提供 **MCP Server 与 Claude Skill**，让 AI Agent 可以直接把日程、摘要、图片推到实体屏幕上——把物理设备变成 Agent 可调用的工具。
-
-### 个人 AI Agent 遥控与审批系统
-
-🗓️ 2026/07 至今
-
-把多台机器上的 Claude Code 会话作为 AI 引擎，从 iPhone / Apple Watch / Widget / Siri / 灵动岛与飞书随时下发任务、查看进度、**远程审批工具权限**、切换模型与重启会话。Cloudflare Worker + Durable Object 后端、APNs 推送、WebSocket 唤醒各机器桥接进程；TDD 开发。是公司内 AI 同事 / 权限治理思路在个人场景的验证场。
-
-### Somatic Corridor
-
-🗓️ 2026/06
-
-🔗 <https://running.esonwong.com>
-
-浏览器摄像头实时识别跳跃 / 下蹲 / 侧移 / 出拳，驱动第一人称无限走廊游戏。纯前端姿态识别 + WebGL，AI 辅助半天内从想法到上线。
-
-### 伊娃 · 自建家庭语音 AI 助手
-
-🗓️ 2026/07 至今
-
-从唤醒到家电控制全链路自研的语音 Agent。树莓派做语音终端：本地唤醒词 KWS 常驻、PortAudio 全双工 + AEC 实现播放中语音打断；Mac mini 做大脑：Python asyncio 会话状态机，能量 VAD 断句 → 离线 ASR（audio.cpp / Qwen3-ASR）→ 流式 LLM → 按句流式 TTS，端到端首包约 2 秒；小爱触屏音箱刷成显示终端（Compose App，眼睛表情 / 时钟 / 通知一瞥）；自建 Matter fabric 控窗帘、灯带、温湿度。上层把 **Pi Agent** 关进 Docker 沙箱做家庭事务 Agent：对话中识别任务即委派，管理清单 / 待办 / 日程与家电状态，`/workspace` 作为它的长期记忆；配合定时任务、每日记忆巩固（"做梦"，可画到墨水屏）、每轮对话 JSONL 账本与唤醒存证做可观测与样本采集。
 
 ### 其他
 
@@ -164,7 +163,6 @@ Chrome、FirFox 浏览器的插件产品，服务于在浏览器进行直播用�
 🗓️ 2018/4 - 2018/8 
 
 🏢 雅诺信集团
-
 
 该项目是为线下连锁门店提供的店铺客户流量信息采集和分析、客户运营推广一体化的 2B 系统。
 

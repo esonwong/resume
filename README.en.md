@@ -86,6 +86,36 @@ This project is developed using Java, MySql, **Vue**, and **Browser Extension AP
 
 I am responsible for project architecture development, business function development, project progress management, and support for integration of third-party developers.
 
+## Side Projects
+
+### Personal AI Agent Remote Control & Approval System
+
+🗓️ 2026/07 - Present
+
+Uses Claude Code sessions on multiple machines as the AI engine; dispatch tasks, follow progress, **approve tool permissions remotely**, switch models and restart sessions from iPhone / Apple Watch / Widget / Siri / Live Activity and Feishu. Cloudflare Worker + Durable Object backend, APNs push, WebSocket wake-up of per-machine bridges; built TDD. A personal proving ground for the AI-colleague and permission-governance ideas used at work.
+
+### Eva · Self-built Home Voice AI Assistant
+
+🗓️ 2026/07 - Present
+
+A voice agent built end to end, from wake word to home control. Raspberry Pi as the voice terminal: always-on local keyword spotting, PortAudio full-duplex + AEC enabling barge-in while speaking; Mac mini as the brain: a Python asyncio session state machine with energy VAD segmentation → offline ASR (audio.cpp / Qwen3-ASR) → streaming LLM → sentence-level streaming TTS, ~2 s end-to-end first response; a Xiaomi touch speaker reflashed as the display terminal (Compose app: eye expressions / clock / notification glance); a self-hosted Matter fabric controlling curtains, light strips and temperature/humidity sensors. On top, **Pi Agent** runs sandboxed in Docker as the household agent: tasks recognized mid-conversation are delegated to it to manage lists / to-dos / schedules and appliance state, with `/workspace` as its long-term memory; plus scheduled tasks, daily memory consolidation ("dreaming", can draw to the e-ink screen), and a per-turn JSONL ledger with wake-word evidence for observability and training-sample collection.
+
+### Somatic Corridor
+
+🗓️ 2026/06
+
+🔗 <https://running.esonwong.com>
+
+A first-person endless corridor game driven by the webcam: jump / crouch / sidestep / punch recognized in real time. Pure front-end pose estimation + WebGL; taken from idea to launch in half a day with AI assistance.
+
+### E-ink Todo List
+
+🗓️ 2024/02 - Present
+
+🔗 <https://einktodo.com> · [GitHub ★42](https://github.com/esonwong/e-ink-todo-list)
+
+An e-ink to-do list built end to end: ESP32 firmware and custom PCB, Next.js web app, iOS app (Sign in with Apple / GitHub), CI/CD and E2E tests. Ships an **MCP server and a Claude Skill** so AI agents can push schedules, summaries and images straight to the physical screen — turning a device into a tool agents can call.
+
 ### Network-RC
 
 🗓️ 2020/4 - 2023/8
@@ -97,36 +127,6 @@ I am responsible for project architecture development, business function develop
 4G/5G remote network remote control car/robot system. Based on Raspberry Pi and RC remote control car hardware, using computer or mobile phone browser interaction control, realized with multi-camera low-latency network image transmission and voice intercom. The controlled end uses **NodeJS** to control the hardware, using **WebRTC** point-to-point communication technology and self-implemented frame-by-frame encoding video stream to achieve low-latency transmission of video images and bidirectional audio streams. The control end uses **React** to build interactive UI. Experimented with TTS, gravity sensing control, GamePad control, intranet penetration, gimbal control, **AI driving**, and other features. Personal experimental entrepreneurial project.
 
 In this project, I achieved the **lowest video latency** of network remote control cars on the market.
-
-## Side Projects
-
-### E-ink Todo List
-
-🗓️ 2024/02 - Present
-
-🔗 <https://einktodo.com> · [GitHub ★42](https://github.com/esonwong/e-ink-todo-list)
-
-An e-ink to-do list built end to end: ESP32 firmware and custom PCB, Next.js web app, iOS app (Sign in with Apple / GitHub), CI/CD and E2E tests. Ships an **MCP server and a Claude Skill** so AI agents can push schedules, summaries and images straight to the physical screen — turning a device into a tool agents can call.
-
-### Personal AI Agent Remote Control & Approval System
-
-🗓️ 2026/07 - Present
-
-Uses Claude Code sessions on multiple machines as the AI engine; dispatch tasks, follow progress, **approve tool permissions remotely**, switch models and restart sessions from iPhone / Apple Watch / Widget / Siri / Live Activity and Feishu. Cloudflare Worker + Durable Object backend, APNs push, WebSocket wake-up of per-machine bridges; built TDD. A personal proving ground for the AI-colleague and permission-governance ideas used at work.
-
-### Somatic Corridor
-
-🗓️ 2026/06
-
-🔗 <https://running.esonwong.com>
-
-A first-person endless corridor game driven by the webcam: jump / crouch / sidestep / punch recognized in real time. Pure front-end pose estimation + WebGL; taken from idea to launch in half a day with AI assistance.
-
-### Eva · Self-built Home Voice AI Assistant
-
-🗓️ 2026/07 - Present
-
-A voice agent built end to end, from wake word to home control. Raspberry Pi as the voice terminal: always-on local keyword spotting, PortAudio full-duplex + AEC enabling barge-in while speaking; Mac mini as the brain: a Python asyncio session state machine with energy VAD segmentation → offline ASR (audio.cpp / Qwen3-ASR) → streaming LLM → sentence-level streaming TTS, ~2 s end-to-end first response; a Xiaomi touch speaker reflashed as the display terminal (Compose app: eye expressions / clock / notification glance); a self-hosted Matter fabric controlling curtains, light strips and temperature/humidity sensors. On top, **Pi Agent** runs sandboxed in Docker as the household agent: tasks recognized mid-conversation are delegated to it to manage lists / to-dos / schedules and appliance state, with `/workspace` as its long-term memory; plus scheduled tasks, daily memory consolidation ("dreaming", can draw to the e-ink screen), and a per-turn JSONL ledger with wake-word evidence for observability and training-sample collection.
 
 ### Also
 
