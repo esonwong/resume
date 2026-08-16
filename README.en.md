@@ -216,9 +216,9 @@ I am responsible for the interaction development and **SEO optimization** of the
 - Webpack, Babel
 - Cordova hybrid App
 - Electron desktop program
-- LLM, RAG, Agent (enterprise AI applications)
-- LangGraph, DeepAgents, Pi Agent, MCP
-- AI engineering (Claude Code / Codex, AI-generated code + CI gates + automated review pipeline)
+- AI application architecture: LLM application design, RAG enterprise knowledge bases, agent orchestration (LangGraph / DeepAgents), MCP tool systems, multi-tenant AI platforms, permission and credential governance
+- AI coding / agent tools: Claude Code, Codex, Pi Agent, OpenClaw, GitHub Copilot (primary day-to-day development workflow; team-scale adoption and skill / workflow distribution)
+- AI engineering: CI gates and automated review for AI-generated code, agent-run operations, skill capture and distribution
 - Git
 
 ## Acknowledgments
