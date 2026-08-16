@@ -28,11 +28,15 @@
 
 🏢 Guangzhou Danxiao Information Technology Co., Ltd.
 
-A company-wide enterprise AI Agent platform built on **LangGraph** / **DeepAgents**, integrating an enterprise knowledge base (**RAG**), an **MCP** tool ecosystem, and agent orchestration. As platform lead and principal developer, built six core modules from scratch within half a year: a **sub-app open platform** (SSO / OAuth, self-service application & approval, automated provisioning of repos and credentials), an **RBAC permission system** (delegated roles, department-scoped grants, multi-tenant isolation), an **MCP tool system** (Streamable HTTP MCP server + PAT credentials, unified built-in tools with dynamic discovery), a **Skill Marketplace** (publish / review / distribute, one-click install to LIP Client, Claude Code, and Codex), a **scheduled task system**, and **AI colleagues**.
+A company-wide enterprise AI Agent platform whose goal is to **let everyone in the company solve their own job's problems with AI**. Built from 0 within half a year as platform lead and principal developer.
+
+At its core is the **sub-app open platform**: business staff no longer wait on engineering — they self-apply, get a repo and credentials provisioned automatically, build an AI app for their own role with agents, and ship it; 8 business domains (marketing, product, QA, HR, legal, data, etc.) build on it. The platform exposes an **Agent API to every sub-app**, so each one is agent-capable by default, and business data flows back through these apps — making the platform the **convergence point for enterprise data and AI capability**. A **Skill Marketplace** captures reusable skills and installs them into Claude Code / Codex in one click so good practices travel between teams; **AI colleagues and scheduled tasks** keep agents resident in business roles, working on a schedule.
+
+Foundation: **LangGraph / DeepAgents** orchestration, **RAG** enterprise knowledge base, **MCP** tool system (Streamable HTTP MCP server + PAT); SSO / OAuth, RBAC, multi-tenant isolation and skill review keep "anyone can build" manageable and auditable.
 
 Impact and key results:
 
-- **154 business sub-apps** launched company-wide (97% created via self-service by business teams), with **43 employees** contributing, covering 8 business domains (marketing, product, QA, HR, legal, data, etc.); **130 installable skills** accumulated in the Skill Marketplace.
+- **154 business sub-apps** launched company-wide, **97% built self-service by business teams**, with **43** business co-builders across 8 domains; **130 installable skills** accumulated in the Skill Marketplace.
 - Established an "AI-generated code + CI gates + automated review" engineering pipeline, automating code review, merging, and production-alert handling with agents: team code merge wait time **dropped from about a day to under an hour**; coordination meetings reduced by **96%** while engineering output doubled.
 - Led company-wide AI adoption: founded and led a 17-person AI pioneer team, delivered three large tech-sharing sessions reaching 133 attendees; provided a one-command-install AI toolkit for non-engineering roles; delivered Brand Voice Studio, a content collaboration platform for the marketing team, from scratch within one month.
 
