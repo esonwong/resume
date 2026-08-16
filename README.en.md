@@ -122,10 +122,15 @@ Uses Claude Code sessions on multiple machines as the AI engine; dispatch tasks,
 
 A first-person endless corridor game driven by the webcam: jump / crouch / sidestep / punch recognized in real time. Pure front-end pose estimation + WebGL; taken from idea to launch in half a day with AI assistance.
 
+### Eva · Self-built Home Voice AI Assistant
+
+🗓️ 2026/07 - Present
+
+A voice agent built end to end, from wake word to home control. Raspberry Pi as the voice terminal: always-on local keyword spotting, PortAudio full-duplex + AEC enabling barge-in while speaking; Mac mini as the brain: a Python asyncio session state machine with energy VAD segmentation → offline ASR (audio.cpp / Qwen3-ASR) → streaming LLM → sentence-level streaming TTS, ~2 s end-to-end first response; a Xiaomi touch speaker reflashed as the display terminal (Compose app: eye expressions / clock / notification glance); a self-hosted Matter fabric controlling curtains, light strips and temperature/humidity sensors. On top: agent task delegation, scheduled tasks, daily memory consolidation ("dreaming", can draw to the e-ink screen), and a per-turn JSONL ledger with wake-word evidence for observability and training-sample collection.
+
 ### Also
 
 - **esp-matter-window**: battery-powered Matter-over-Thread window opener (XIAO ESP32-C6 / ESP-IDF) working with Apple Home
-- **xiao-ai-mini**: Android client for the XiaoZhi AI voice assistant (Kotlin / C++, experimental)
 - **I'm Listening**: web app generating personalized listening material with LLM + TTS
 
 ## Earlier Projects

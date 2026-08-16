@@ -230,8 +230,14 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);font-si
     <div class="chips"><span class="chip">Pose estimation</span><span class="chip">WebGL</span><span class="chip">Front-end only</span></div>
   </li>
   <li>
+    <h3>Eva <span class="muted small">self-built home voice AI assistant · hardware + software</span></h3>
+    <div class="meta"><b>2026/07 – Present</b><span>Raspberry Pi + Mac mini + touch speaker + Matter</span></div>
+    <p>A voice agent built end to end, from wake word to home control. Raspberry Pi as the voice terminal: always-on local keyword spotting, PortAudio full-duplex + AEC enabling barge-in while speaking; Mac mini as the brain: a Python asyncio session state machine with energy VAD segmentation → offline ASR (audio.cpp / Qwen3-ASR) → streaming LLM → sentence-level streaming TTS, ~2 s end-to-end first response; a Xiaomi touch speaker reflashed as the display terminal (Compose app: eye expressions / clock / notification glance); a self-hosted Matter fabric controlling curtains, light strips and temperature/humidity sensors. On top: agent task delegation, scheduled tasks, daily memory consolidation ("dreaming", can draw to the e-ink screen), and a per-turn JSONL ledger with wake-word evidence for observability and training-sample collection.</p>
+    <div class="chips"><span class="chip">Voice agent</span><span class="chip">KWS / AEC</span><span class="chip">ASR / LLM / TTS pipeline</span><span class="chip">Matter</span><span class="chip">Raspberry Pi</span><span class="chip">Android Compose</span></div>
+  </li>
+  <li>
     <h3 class="muted" style="font-weight:600;font-size:14px;color:var(--ink-3)">Also</h3>
-    <p><strong>esp-matter-window</strong>: battery-powered Matter-over-Thread window opener (XIAO ESP32-C6 / ESP-IDF) working with Apple Home · <strong>xiao-ai-mini</strong>: Android client for the XiaoZhi AI voice assistant (Kotlin / C++, experimental) · <strong>I'm Listening</strong>: web app generating personalized listening material with LLM + TTS</p>
+    <p><strong>esp-matter-window</strong>: battery-powered Matter-over-Thread window opener (XIAO ESP32-C6 / ESP-IDF) working with Apple Home · <strong>I'm Listening</strong>: web app generating personalized listening material with LLM + TTS</p>
   </li>
 </ol>
 

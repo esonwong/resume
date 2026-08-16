@@ -230,8 +230,14 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);font-si
     <div class="chips"><span class="chip">姿态识别</span><span class="chip">WebGL</span><span class="chip">纯前端</span></div>
   </li>
   <li>
+    <h3>伊娃 <span class="muted small">自建家庭语音 AI 助手 · 软硬一体</span></h3>
+    <div class="meta"><b>2026/07 – 至今</b><span>树莓派 + Mac mini + 触屏音箱 + Matter</span></div>
+    <p>从唤醒到家电控制全链路自研的语音 Agent。树莓派做语音终端：本地唤醒词 KWS 常驻、PortAudio 全双工 + AEC 实现播放中语音打断；Mac mini 做大脑：Python asyncio 会话状态机，能量 VAD 断句 → 离线 ASR（audio.cpp / Qwen3-ASR）→ 流式 LLM → 按句流式 TTS，端到端首包约 2 秒；小爱触屏音箱刷成显示终端（Compose App，眼睛表情 / 时钟 / 通知一瞥）；自建 Matter fabric 控窗帘、灯带、温湿度。上层有 Agent 任务委派、定时任务、每日记忆巩固（"做梦"，可画到墨水屏）、每轮对话 JSONL 账本与唤醒存证做可观测与样本采集。</p>
+    <div class="chips"><span class="chip">语音 Agent</span><span class="chip">KWS / AEC</span><span class="chip">ASR / LLM / TTS 流水线</span><span class="chip">Matter</span><span class="chip">Raspberry Pi</span><span class="chip">Android Compose</span></div>
+  </li>
+  <li>
     <h3 class="muted" style="font-weight:600;font-size:14px;color:var(--ink-3)">其他</h3>
-    <p><strong>esp-matter-window</strong>：Matter over Thread 电池开窗器（XIAO ESP32-C6 / ESP-IDF），接入 Apple Home · <strong>xiao-ai-mini</strong>：小智 AI 语音助手 Android 客户端（Kotlin / C++，实验中） · <strong>I'm Listening</strong>：LLM + TTS 生成个性化听力材料的 Web 应用</p>
+    <p><strong>esp-matter-window</strong>：Matter over Thread 电池开窗器（XIAO ESP32-C6 / ESP-IDF），接入 Apple Home · <strong>I'm Listening</strong>：LLM + TTS 生成个性化听力材料的 Web 应用</p>
   </li>
 </ol>
 

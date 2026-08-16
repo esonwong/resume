@@ -122,10 +122,15 @@ Chrome、FirFox 浏览器的插件产品，服务于在浏览器进行直播用�
 
 浏览器摄像头实时识别跳跃 / 下蹲 / 侧移 / 出拳，驱动第一人称无限走廊游戏。纯前端姿态识别 + WebGL，AI 辅助半天内从想法到上线。
 
+### 伊娃 · 自建家庭语音 AI 助手
+
+🗓️ 2026/07 至今
+
+从唤醒到家电控制全链路自研的语音 Agent。树莓派做语音终端：本地唤醒词 KWS 常驻、PortAudio 全双工 + AEC 实现播放中语音打断；Mac mini 做大脑：Python asyncio 会话状态机，能量 VAD 断句 → 离线 ASR（audio.cpp / Qwen3-ASR）→ 流式 LLM → 按句流式 TTS，端到端首包约 2 秒；小爱触屏音箱刷成显示终端（Compose App，眼睛表情 / 时钟 / 通知一瞥）；自建 Matter fabric 控窗帘、灯带、温湿度。上层有 Agent 任务委派、定时任务、每日记忆巩固（"做梦"，可画到墨水屏）、每轮对话 JSONL 账本与唤醒存证做可观测与样本采集。
+
 ### 其他
 
 - **esp-matter-window**：Matter over Thread 电池开窗器（XIAO ESP32-C6 / ESP-IDF），接入 Apple Home
-- **xiao-ai-mini**：小智 AI 语音助手 Android 客户端（Kotlin / C++，实验中）
 - **I'm Listening**：LLM + TTS 生成个性化听力材料的 Web 应用
 
 ## 早期项目
