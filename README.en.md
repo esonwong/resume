@@ -88,6 +88,8 @@ I am responsible for project architecture development, business function develop
 
 🏢 Personal project
 
+🔗 [GitHub ★274](https://github.com/esonwong/network-rc)
+
 4G/5G remote network remote control car/robot system. Based on Raspberry Pi and RC remote control car hardware, using computer or mobile phone browser interaction control, realized with multi-camera low-latency network image transmission and voice intercom. The controlled end uses **NodeJS** to control the hardware, using **WebRTC** point-to-point communication technology and self-implemented frame-by-frame encoding video stream to achieve low-latency transmission of video images and bidirectional audio streams. The control end uses **React** to build interactive UI. Experimented with TTS, gravity sensing control, GamePad control, intranet penetration, gimbal control, **AI driving**, and other features. Personal experimental entrepreneurial project.
 
 In this project, I achieved the **lowest video latency** of network remote control cars on the market.
