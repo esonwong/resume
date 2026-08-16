@@ -1,6 +1,6 @@
 # Eson Wong 汪毅盛
 
-Currently working as the head of the front-end functional team (20 people) at Guangzhou Danxiao Information Technology Co., Ltd. Responsible for the front-end architecture of company projects, DevOps, front-end team building, and front-end development. At the same time, promoting the application of AI technology in various functional work of the company (including generating SEO external chain articles, GPT after-sales customer service, etc.), AI application and landing in the project.
+Currently working at Guangzhou Danxiao Information Technology Co., Ltd. as **Head of the Enterprise AI Agent Platform**, **Head of AI Technology Application**, and **Head of the Front-end Functional Team (20 people)**. Responsible for building the company-wide AI Agent platform from 0 to 1, establishing an "AI-generated code + MR/CI gate + automated review" engineering pipeline, and driving large-scale AI adoption across business functions (marketing, product, QA, HR, legal, data, etc.); also responsible for front-end architecture, DevOps, and front-end team building.
 
 [中文版](./README.md)
 
@@ -11,7 +11,7 @@ Currently working as the head of the front-end functional team (20 people) at Gu
 - WeChat: EsonWong_
 - Email: esonzero@gmail.com
 - Expected job: Web front-end development engineer
-- Work experience: 10 years
+- Work experience: 13 years
 - Education: College / Hubei Vocational College / Computer Software Major
 
 ## Links
@@ -24,7 +24,7 @@ Currently working as the head of the front-end functional team (20 people) at Gu
 
 ### Network-RC
 
-🗓️ 2020/4 - Present
+🗓️ 2020/4 - 2023/8
 
 🏢 Personal project
 
@@ -32,9 +32,45 @@ Currently working as the head of the front-end functional team (20 people) at Gu
 
 In this project, I achieved the **lowest video latency** of network remote control cars on the market.
 
+### Enterprise AI Agent Platform
+
+🗓️ 2026/04 - Present
+
+🏢 Guangzhou Danxiao Information Technology Co., Ltd.
+
+A company-wide enterprise AI Agent platform built on **LangGraph** / **DeepAgents**, integrating an enterprise knowledge base (**RAG**), an **MCP** tool ecosystem, and agent orchestration. As platform lead and principal developer, built six core modules from scratch within half a year: a **sub-app open platform** (SSO / OAuth, self-service application & approval, automated provisioning of repos and credentials), an **RBAC permission system** (delegated roles, department-scoped grants, multi-tenant isolation), an **MCP tool system** (Streamable HTTP MCP server + PAT credentials, unified built-in tools with dynamic discovery), a **Skill Marketplace** (publish / review / distribute, one-click install to LIP Client, Claude Code, and Codex), a **scheduled task system**, and **AI colleagues**.
+
+Impact and key results:
+
+- **154 business sub-apps** launched company-wide (97% created via self-service by business teams), with **43 employees** contributing, covering 8 business domains (marketing, product, QA, HR, legal, data, etc.); **130 installable skills** accumulated in the Skill Marketplace.
+- Established an "AI-generated code + CI gates + automated review" engineering pipeline, automating code review, merging, and production-alert handling with agents: team code merge wait time **dropped from about a day to under an hour**; coordination meetings reduced by **96%** while engineering output doubled.
+- Led company-wide AI adoption: founded and led a 17-person AI pioneer team, delivered three large tech-sharing sessions reaching 133 attendees; provided a one-command-install AI toolkit for non-engineering roles; delivered Brand Voice Studio, a content collaboration platform for the marketing team, from scratch within one month.
+
+I am responsible for the overall technical architecture, technology selection, and core feature development of the platform, and lead the company's AI engineering process standards and adoption.
+
+### Vibemate Mobile
+
+🗓️ 2025/02 - 2026/04
+
+🏢 Guangzhou Danxiao Information Technology Co., Ltd.
+
+The mobile product of Vibemate, extending the desktop client's optimized live-streaming viewing experience to mobile live-streaming scenarios.
+
+As the project's **technical lead**, I was responsible for the mobile technical architecture, team leadership, and core feature development.
+
+### Vibemate PC
+
+🗓️ 2023/06 - 2025/02
+
+🏢 Guangzhou Danxiao Information Technology Co., Ltd.
+
+A desktop browser product that optimizes the live-streaming viewing experience, providing users with a smoother, more immersive live-streaming experience. Built as a cross-platform desktop application with **Electron**.
+
+As the project's **technical lead**, I was responsible for the desktop technical architecture, technology selection, team leadership, and core feature development.
+
 ### Cam Extension
 
-🗓️ 2020/08 - Present
+🗓️ 2020/08 - 2023/06
 
 🏢 Guangzhou Danxiao Information Technology Co., Ltd.
 
@@ -148,6 +184,9 @@ I am responsible for the interaction development and **SEO optimization** of the
 - Webpack, Babel
 - Cordova hybrid App
 - Electron desktop program
+- LLM, RAG, Agent (enterprise AI applications)
+- LangGraph, DeepAgents, Pi Agent, MCP
+- AI engineering (Claude Code / Codex, AI-generated code + CI gates + automated review pipeline)
 - Git
 
 ## Acknowledgments
