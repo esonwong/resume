@@ -44,9 +44,7 @@ I am responsible for the overall technical architecture, technology selection, a
 
 🏢 Guangzhou Danxiao Information Technology Co., Ltd.
 
-The mobile product of Vibemate, extending the desktop client's optimized live-streaming viewing experience to mobile live-streaming scenarios.
-
-As the project's **technical lead**, I was responsible for the mobile technical architecture, team leadership, and core feature development.
+The mobile product of Vibemate, extending the desktop client's optimized live-streaming viewing experience to mobile. As the project's **technical lead**, I was responsible for mobile architecture and team leadership, and led the **adoption of AI features in the product** — bringing LLM capabilities into live-streaming interaction and taking AI from internal tooling to user-facing product features.
 
 ### Vibemate PC
 
