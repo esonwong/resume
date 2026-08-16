@@ -126,7 +126,7 @@ Chrome、FirFox 浏览器的插件产品，服务于在浏览器进行直播用�
 
 🗓️ 2026/07 至今
 
-从唤醒到家电控制全链路自研的语音 Agent。树莓派做语音终端：本地唤醒词 KWS 常驻、PortAudio 全双工 + AEC 实现播放中语音打断；Mac mini 做大脑：Python asyncio 会话状态机，能量 VAD 断句 → 离线 ASR（audio.cpp / Qwen3-ASR）→ 流式 LLM → 按句流式 TTS，端到端首包约 2 秒；小爱触屏音箱刷成显示终端（Compose App，眼睛表情 / 时钟 / 通知一瞥）；自建 Matter fabric 控窗帘、灯带、温湿度。上层有 Agent 任务委派、定时任务、每日记忆巩固（"做梦"，可画到墨水屏）、每轮对话 JSONL 账本与唤醒存证做可观测与样本采集。
+从唤醒到家电控制全链路自研的语音 Agent。树莓派做语音终端：本地唤醒词 KWS 常驻、PortAudio 全双工 + AEC 实现播放中语音打断；Mac mini 做大脑：Python asyncio 会话状态机，能量 VAD 断句 → 离线 ASR（audio.cpp / Qwen3-ASR）→ 流式 LLM → 按句流式 TTS，端到端首包约 2 秒；小爱触屏音箱刷成显示终端（Compose App，眼睛表情 / 时钟 / 通知一瞥）；自建 Matter fabric 控窗帘、灯带、温湿度。上层把 **Pi Agent** 关进 Docker 沙箱做家庭事务 Agent：对话中识别任务即委派，管理清单 / 待办 / 日程与家电状态，`/workspace` 作为它的长期记忆；配合定时任务、每日记忆巩固（"做梦"，可画到墨水屏）、每轮对话 JSONL 账本与唤醒存证做可观测与样本采集。
 
 ### 其他
 
