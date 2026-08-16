@@ -37,7 +37,7 @@ Foundation: **LangGraph / DeepAgents** orchestration, **RAG** enterprise knowled
 Impact and key results:
 
 - **154 business sub-apps** launched company-wide, **97% built self-service by business teams**, with **43** business co-builders across 8 domains; **130 installable skills** accumulated in the Skill Marketplace.
-- Established an "AI-generated code + CI gates + automated review" engineering pipeline, automating code review, merging, and production-alert handling with agents: team code merge wait time **dropped from about a day to under an hour**; coordination meetings reduced by **96%** while engineering output doubled.
+- Established an "AI-generated code + CI gates + automated review" engineering pipeline, automating code review, merging, and production-alert handling with agents: team code merge wait time **dropped from about a day to under an hour** while engineering output doubled.
 - Led company-wide AI adoption: founded and led a 17-person AI pioneer team, delivered three large tech-sharing sessions reaching 133 attendees; provided a one-command-install AI toolkit for non-engineering roles; delivered Brand Voice Studio, a content collaboration platform for the marketing team, from scratch within one month.
 
 I am responsible for the overall technical architecture, technology selection, and core feature development of the platform, and lead the company's AI engineering process standards and adoption.
