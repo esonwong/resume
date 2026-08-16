@@ -114,7 +114,7 @@ Uses Claude Code sessions on multiple machines as the AI engine; dispatch tasks,
 
 🔗 <https://running.esonwong.com>
 
-A first-person endless corridor game driven by the webcam: jump / crouch / sidestep / punch recognized in real time. Pure front-end pose estimation + WebGL; taken from idea to launch in two weeks with AI assistance.
+A first-person endless corridor game driven by the webcam: jump / crouch / sidestep / punch recognized in real time. Pure front-end pose estimation + WebGL; taken from idea to launch in half a day with AI assistance.
 
 ### Also
 
