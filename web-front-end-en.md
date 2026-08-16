@@ -10,7 +10,7 @@ Currently working at Guangzhou Danxiao Information Technology Co., Ltd. as **Hea
 - Mobile: 13265678623
 - WeChat: EsonWong_
 - Email: esonzero@gmail.com
-- Expected job: Web front-end development engineer
+- Expected job: Enterprise AI Application / AI Agent Platform Lead, AI Application Architect, AI Engineering Lead
 - Work experience: 13 years
 - Education: College / Hubei Vocational College / Computer Software Major
 
