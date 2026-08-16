@@ -42,7 +42,7 @@ strong{font-weight:650}
 .hero{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:start}
 .hero .en{font-size:15px;color:var(--ink-3);font-weight:500;margin-left:10px}
 .tag{margin-top:6px;font-size:18px;color:var(--ink-2)}
-.role{margin-top:14px;display:inline-block;background:var(--chip);color:var(--chip-ink);border-radius:999px;padding:4px 14px;font-size:14px;font-weight:600}
+.role{margin-top:14px;display:inline-block;background:var(--chip);color:var(--chip-ink);border-radius:10px;padding:6px 14px;font-size:14px;font-weight:600;line-height:1.5}
 .actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
 .btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:6px 12px;font-size:14px;cursor:pointer;line-height:1.5}
 .btn:hover{border-color:var(--ink-3);text-decoration:none}
@@ -104,7 +104,7 @@ details[open] summary::after{content:"－"}
 /* info */
 .info{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 24px;font-size:15px}
 .info div{display:flex;gap:10px}
-.info span:first-child{color:var(--ink-3);flex:none;width:64px}
+.info span:first-child{color:var(--ink-3);flex:none;width:84px}
 footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--ink-3);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 
 @media (max-width:640px){
@@ -112,7 +112,6 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);font-si
   h1{font-size:28px}
   .hero{grid-template-columns:1fr}
   .card{padding:20px 18px}
-  .role{border-radius:10px;line-height:1.5;padding:6px 12px}
   .skills{grid-template-columns:1fr;gap:4px 0}
   .skills dt{margin-top:10px}
   .early li{grid-template-columns:1fr;gap:2px}
@@ -148,7 +147,7 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);font-si
       <button class="btn" onclick="window.print()">下载 PDF</button>
     </div>
   </div>
-  <div class="langswitch"><a href="./README.en">English</a> · <a href="./README">Markdown</a></div>
+  <div class="langswitch"><a href="./en">English</a> · <a href="./README">Markdown</a></div>
 </header>
 
 <section class="intro">
