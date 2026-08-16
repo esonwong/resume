@@ -22,16 +22,6 @@ Currently working at Guangzhou Danxiao Information Technology Co., Ltd. as **Hea
 
 ## Project Experience
 
-### Network-RC
-
-🗓️ 2020/4 - 2023/8
-
-🏢 Personal project
-
-4G/5G remote network remote control car/robot system. Based on Raspberry Pi and RC remote control car hardware, using computer or mobile phone browser interaction control, realized with multi-camera low-latency network image transmission and voice intercom. The controlled end uses **NodeJS** to control the hardware, using **WebRTC** point-to-point communication technology and self-implemented frame-by-frame encoding video stream to achieve low-latency transmission of video images and bidirectional audio streams. The control end uses **React** to build interactive UI. Experimented with TTS, gravity sensing control, GamePad control, intranet penetration, gimbal control, **AI driving**, and other features. Personal experimental entrepreneurial project.
-
-In this project, I achieved the **lowest video latency** of network remote control cars on the market.
-
 ### Enterprise AI Agent Platform
 
 🗓️ 2026/04 - Present
@@ -68,18 +58,6 @@ A desktop browser product that optimizes the live-streaming viewing experience, 
 
 As the project's **technical lead**, I was responsible for the desktop technical architecture, technology selection, team leadership, and core feature development.
 
-### Cam Extension
-
-🗓️ 2020/08 - 2023/06
-
-🏢 Guangzhou Danxiao Information Technology Co., Ltd.
-
-Chrome and FirFox browser plug-in products, serving users who live broadcast in the browser. This project combines the company's hardware products to realize the interaction and interaction between the audience and the live broadcaster, and provides safe and easy-to-use APIs and **Developer documentation** for live broadcast platforms and other developers.
-
-This project is developed using Java, MySql, **Vue**, and **Browser Extension API**.
-
-I am responsible for project architecture development, business function development, project progress management, and support for integration of third-party developers.
-
 ### Fanberry
 
 🗓️ 2022/4 - 2023/7
@@ -93,6 +71,28 @@ Personal IP operation, fan operation, and charging tools. Supports multiple comp
 This project uses **Vue3** and **Typescript** as the development framework and language. Use **Nuxt.js** to develop the **server-side rendering SSR** framework to meet the project's **SEO** requirements. The **adaptive layout** solution realizes friendly experience for mobile and desktop and different resolutions.
 
 I am responsible for the front-end architecture and business development of the Fanberry project.
+
+### Cam Extension
+
+🗓️ 2020/08 - 2023/06
+
+🏢 Guangzhou Danxiao Information Technology Co., Ltd.
+
+Chrome and FirFox browser plug-in products, serving users who live broadcast in the browser. This project combines the company's hardware products to realize the interaction and interaction between the audience and the live broadcaster, and provides safe and easy-to-use APIs and **Developer documentation** for live broadcast platforms and other developers.
+
+This project is developed using Java, MySql, **Vue**, and **Browser Extension API**.
+
+I am responsible for project architecture development, business function development, project progress management, and support for integration of third-party developers.
+
+### Network-RC
+
+🗓️ 2020/4 - 2023/8
+
+🏢 Personal project
+
+4G/5G remote network remote control car/robot system. Based on Raspberry Pi and RC remote control car hardware, using computer or mobile phone browser interaction control, realized with multi-camera low-latency network image transmission and voice intercom. The controlled end uses **NodeJS** to control the hardware, using **WebRTC** point-to-point communication technology and self-implemented frame-by-frame encoding video stream to achieve low-latency transmission of video images and bidirectional audio streams. The control end uses **React** to build interactive UI. Experimented with TTS, gravity sensing control, GamePad control, intranet penetration, gimbal control, **AI driving**, and other features. Personal experimental entrepreneurial project.
+
+In this project, I achieved the **lowest video latency** of network remote control cars on the market.
 
 ### Garden Help
 
