@@ -222,7 +222,7 @@ Chrome、FirFox 浏览器的插件产品，服务于在浏览器进行直播用�
 - Cordova 混合 App
 - Electron 桌面程序
 - AI 应用架构：LLM 应用设计、RAG 企业知识库、Agent 编排（LangGraph / DeepAgents）、MCP 工具体系、多租户 AI 平台、权限与凭据治理
-- AI 编码 / Agent 工具：Claude Code、Codex、Pi Agent、OpenClaw、GitHub Copilot（日常主力开发方式，团队规模化落地与技能 / 工作流分发）
+- AI 编码 / Agent 工具：Claude Code（主力）、Codex、Pi Agent、OpenClaw、GitHub Copilot（日常开发全程 Agent 驱动，团队规模化落地与技能 / 工作流分发）
 - AI 研发工程化：AI 生成代码的 CI 门禁与自动化 review、Agent 值守运维、技能沉淀与分发
 - Git
 

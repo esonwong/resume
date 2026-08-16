@@ -217,7 +217,7 @@ I am responsible for the interaction development and **SEO optimization** of the
 - Cordova hybrid App
 - Electron desktop program
 - AI application architecture: LLM application design, RAG enterprise knowledge bases, agent orchestration (LangGraph / DeepAgents), MCP tool systems, multi-tenant AI platforms, permission and credential governance
-- AI coding / agent tools: Claude Code, Codex, Pi Agent, OpenClaw, GitHub Copilot (primary day-to-day development workflow; team-scale adoption and skill / workflow distribution)
+- AI coding / agent tools: Claude Code (primary), Codex, Pi Agent, OpenClaw, GitHub Copilot (agent-driven day-to-day development; team-scale adoption and skill / workflow distribution)
 - AI engineering: CI gates and automated review for AI-generated code, agent-run operations, skill capture and distribution
 - Git
 
